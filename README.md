@@ -1,0 +1,2 @@
+# SingletonMonobehaviour
+Monobehaviourのシングルトン化にまつわる便利ツール
