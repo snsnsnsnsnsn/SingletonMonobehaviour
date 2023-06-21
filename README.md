@@ -5,8 +5,7 @@ Monobehaviourのシングルトン化にまつわる便利ツールたち
 MonoBehaviour継承クラスを1行でSingleton化できるやつ。
 
 ## SingletonInstanciater
-
-グローバル変数（static変数）の管理に使う想定。EnterPlayModeはstatic変数が消えない悪癖があるけど、これ使うと自動リセットされます。
+おもにグローバル変数（static変数）管理に使う想定。EnterPlayModeはstatic変数が消えない悪癖があるけど、これ使うと自動リセットされます。
 
 EnterPlayModeでのstaticリセット方法として、公式などでは、[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]を使った対処法が紹介されていますけども、対象static変数のリセット処理を1つずつ地道に追加しなきゃいけないのでメンテコストで死ぬしバグの温床にもなると思うのです。
 
