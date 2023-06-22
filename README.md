@@ -4,6 +4,9 @@ Monobehaviourのシングルトン化にまつわる便利ツールたち
 ## SingletonAttacher
 MonoBehaviour継承クラスを1行でSingleton化できるやつ。
 
+詳しい解説はこちら
+https://note.com/unmology/n/n386ad0f5125a
+
 ## SingletonInstanciater
 おもにグローバル変数（static変数）管理に使う想定。EnterPlayModeはstatic変数が消えない悪癖があるけど、これ使うと自動リセットされます。
 
